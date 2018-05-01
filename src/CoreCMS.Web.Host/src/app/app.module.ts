@@ -34,6 +34,7 @@ import { SideBarFooterComponent } from '@app/layout/sidebar-footer.component';
 import { RightSideBarComponent } from '@app/layout/right-sidebar.component';
 import { MaterialInput } from '@shared/directives/material-input.directive';
 
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -54,7 +55,6 @@ import { MaterialInput } from '@shared/directives/material-input.directive';
         SideBarNavComponent,
         SideBarFooterComponent,
         RightSideBarComponent
-    
     ],
     imports: [
         CommonModule,

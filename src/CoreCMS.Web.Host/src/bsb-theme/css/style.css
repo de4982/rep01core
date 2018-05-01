@@ -8107,3 +8107,27 @@ html.ie11 .dropdown-menu ul.menu li a {
 html.ie11 .bs-searchbox .form-control {
   width: 90%; }
 
+
+
+client-header .navbar {
+    position:static;
+}
+
+.client-outlet-wrapper {
+    min-height:90%;
+}
+
+.navbar-footer {
+    min-height:60px;
+    background-color: #cccccc;
+    box-shadow: #bbbbbb 0px -1px 3px 1px;
+}
+
+.navbar-footer ul.links {
+    list-style-type:none;
+    font-size: 0.8rem;
+}
+
+.navbar-footer ul.links a {
+    color: #777777;
+}

@@ -12,7 +12,13 @@ const routes: Routes = [
         path: 'app',
         loadChildren: 'app/app.module#AppModule', //Lazy load account module
         data: { preload: true }
-    }
+    },
+    /* if you want to set client block as lazyloading, otherwise routes loads in clientmodule
+    {
+        path: 'client',
+        loadChildren: 'client/client.module#ClientModule', //Lazy load account module
+        data: { preload: true }
+    },*/
 ];
 
 @NgModule({

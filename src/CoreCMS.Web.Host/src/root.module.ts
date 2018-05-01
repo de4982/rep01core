@@ -18,6 +18,8 @@ import { RootComponent } from './root.component';
 import { AppPreBootstrap } from './AppPreBootstrap';
 import { ModalModule } from 'ngx-bootstrap';
 import { HttpClientModule, HttpResponse } from '@angular/common/http';
+import { ClientModule } from 'client/client.module';
+
 
 export function appInitializerFactory(injector: Injector) {
   return () => {
@@ -59,7 +61,8 @@ export function getCurrentLanguage(): string {
     AbpModule,
     ServiceProxyModule,
     RootRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ClientModule
   ],
   declarations: [
     RootComponent
