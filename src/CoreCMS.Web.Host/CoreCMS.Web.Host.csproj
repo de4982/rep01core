@@ -61,10 +61,20 @@
     <None Remove="node_modules\**" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="src\app\clientSide\users\user-registration\user-registration.ts" />
+    <None Remove="src\client\client-routing.module.ts" />
+    <None Remove="src\client\client.component.ts" />
+    <None Remove="src\client\client.module.ts" />
+    <None Remove="src\client\layout\client-footer.component.ts" />
+    <None Remove="src\client\layout\client-header.component.ts" />
+    <None Remove="src\client\users\user-registration\user-registration.ts" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="src\app\clientSide\users\user-registration\user-registration.ts" />
+    <TypeScriptCompile Include="src\client\client-routing.module.ts" />
+    <TypeScriptCompile Include="src\client\client.component.ts" />
+    <TypeScriptCompile Include="src\client\client.module.ts" />
+    <TypeScriptCompile Include="src\client\layout\client-footer.component.ts" />
+    <TypeScriptCompile Include="src\client\layout\client-header.component.ts" />
+    <TypeScriptCompile Include="src\client\users\user-registration\user-registration.ts" />
   </ItemGroup>
   <PropertyGroup>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
