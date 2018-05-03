@@ -76,10 +76,10 @@ export function getCurrentLanguage(): string {
       deps: [Injector],
       multi: true
     },
-      {
-          provide: LOCALE_ID,
-          useFactory: getCurrentLanguage
-      }
+    {
+        provide: LOCALE_ID,
+        useFactory: getCurrentLanguage
+    }
   ],
   bootstrap: [RootComponent]
 })

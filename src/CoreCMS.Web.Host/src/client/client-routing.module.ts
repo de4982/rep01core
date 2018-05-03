@@ -3,8 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { ClientComponent } from 'client/client.component';
 
-import { UserRegistrationComponent } from 'client/users/user-registration/user-registration';
-
 
 @NgModule({
     imports: [
@@ -14,7 +12,7 @@ import { UserRegistrationComponent } from 'client/users/user-registration/user-r
                 component: ClientComponent,
                 children: [
                     //{ path: 'home', component: HomeComponent, canActivate: [AppRouteGuard] },                    
-                    { path: 'registration', component: UserRegistrationComponent }
+                    //{ path: 'registration', component: UserRegistrationComponent }
                 ]
             }
         ])

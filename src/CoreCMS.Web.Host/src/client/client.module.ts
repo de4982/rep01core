@@ -15,9 +15,9 @@ import { AbpModule } from '@abp/abp.module';
 import { ServiceProxyModule } from '@shared/service-proxies/service-proxy.module';
 import { SharedModule } from '@shared/shared.module';
 
-import { UserRegistrationComponent } from 'client/users/user-registration/user-registration';
 import { ClientFooterComponent } from 'client/layout/client-footer.component';
 import { ClientHeaderComponent } from 'client/layout/client-header.component';
+import { LoginHeaderComponent } from 'client/users/login-header-block/login-header.component';
 
 
 
@@ -26,7 +26,7 @@ import { ClientHeaderComponent } from 'client/layout/client-header.component';
         ClientComponent,
         ClientHeaderComponent,
         ClientFooterComponent,
-        UserRegistrationComponent
+        LoginHeaderComponent
     ],
     imports: [
         CommonModule,

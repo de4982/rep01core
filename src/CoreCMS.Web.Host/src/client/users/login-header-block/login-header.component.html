@@ -1,0 +1,8 @@
+﻿<div class="login-header-container">
+    <div *ngIf="!authenticated">
+        <a href="/account/login">sign in</a> | <a href="/account/register">register</a>
+    </div>
+    <div *ngIf="authenticated">
+        <a href="/client/cabinet">cabinet</a>
+    </div>
+</div>

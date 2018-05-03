@@ -10,7 +10,7 @@
     <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
   </PropertyGroup>
   <PropertyGroup>
-    <DefineConstants>FEATURE_SIGNALR_ASPNETCORE</DefineConstants>
+    <DefineConstants>DEBUG;NETCOREAPP2_0</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -66,7 +66,7 @@
     <None Remove="src\client\client.module.ts" />
     <None Remove="src\client\layout\client-footer.component.ts" />
     <None Remove="src\client\layout\client-header.component.ts" />
-    <None Remove="src\client\users\user-registration\user-registration.ts" />
+    <None Remove="src\client\users\login-header-block\login-header.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\client\client-routing.module.ts" />
@@ -74,7 +74,10 @@
     <TypeScriptCompile Include="src\client\client.module.ts" />
     <TypeScriptCompile Include="src\client\layout\client-footer.component.ts" />
     <TypeScriptCompile Include="src\client\layout\client-header.component.ts" />
-    <TypeScriptCompile Include="src\client\users\user-registration\user-registration.ts" />
+    <TypeScriptCompile Include="src\client\users\login-header-block\login-header.component.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\client\common\index-component\" />
   </ItemGroup>
   <PropertyGroup>
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>

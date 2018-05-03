@@ -8113,6 +8113,10 @@ client-header .navbar {
     position:static;
 }
 
+client-header .navbar .navbar-header {
+    width:100%;
+}
+
 .client-outlet-wrapper {
     min-height:90%;
 }
@@ -8130,4 +8134,9 @@ client-header .navbar {
 
 .navbar-footer ul.links a {
     color: #777777;
+}
+
+login-header {
+    display:block;
+    vertical-align: top;
 }
